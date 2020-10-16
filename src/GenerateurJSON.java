@@ -22,7 +22,7 @@ public class GenerateurJSON {
         }
 
         // Génération du JSON depuis un tableau d'objets
-        Personne p[] = { new Personne("John", "Smith", 30),
+        Personne[] p = { new Personne("John", "Smith", 30),
                          new Personne("Cyril", "Rabat", 25) };
         JSONObject objet = new JSONObject();
         

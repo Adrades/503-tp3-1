@@ -1,18 +1,20 @@
 /**
  * Classe représentant une personne.
+ *
  * @author Cyril Rabat
  */
 public class Personne {
 
-    private String nom;
-    private String prenom;
-    private int age;
+    private final String nom;
+    private final String prenom;
+    private final int age;
 
     /**
      * Constructeur par initialisation.
-     * @param nom le nom de la personne
+     *
+     * @param nom    le nom de la personne
      * @param prenom le prénom de la personne
-     * @param age l'âge de la personne
+     * @param age    l'âge de la personne
      */
     public Personne(String nom, String prenom, int age) {
         this.nom = nom;
@@ -22,6 +24,7 @@ public class Personne {
 
     /**
      * Récupère le nom de la personne.
+     *
      * @return le nom de la personne
      */
     public String getNom() {
@@ -30,6 +33,7 @@ public class Personne {
 
     /**
      * Récupère le prénom de la personne.
+     *
      * @return le prénom de la personne
      */
     public String getPrenom() {
@@ -38,6 +42,7 @@ public class Personne {
 
     /**
      * Récupère l'âge de la personne.
+     *
      * @return l'âge de la personne
      */
     public int getAge() {
@@ -46,6 +51,7 @@ public class Personne {
 
     /**
      * Convertit l'objet courant en chaîne de caractères.
+     *
      * @return la chaîne de caractères
      */
     public String toString() {
